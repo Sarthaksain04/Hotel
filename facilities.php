@@ -98,6 +98,9 @@
 
       <div class="my-5 px-4"> <!-- Added text-center class to center the text -->
       <h2 class="mt-12 pt-5 mb-4  h-font text-center">OUR FACILITIES</h2>
+      
+       <div class="h-line"></div>
+
     </div>
 
  
