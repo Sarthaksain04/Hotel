@@ -8,7 +8,7 @@
         <ul>
 
             <li><a href="index.php">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="about.php">About</a></li>
             <li><a href="facilities.php">facilities</a></li>
             <li><a href="#">Contacts</a></li>
             <li>

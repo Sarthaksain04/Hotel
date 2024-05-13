@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hotel Norway</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
+    
     <?php require('inc/links.php');?>
     <style>
         .pop:hover{
@@ -98,7 +100,7 @@
 
     
     <div class="my-5 px-4"> <!-- Added text-center class to center the text -->
-        <h2 class="mt-12 pt-5 mb-4 h-font text-center">OUR FACILITIES</h2>
+        <h2 class="mt-12 pt-5 mb-4 h-font text-center">About us</h2>
         <div class="h-line bg-dark"></div>
     </div>
 
@@ -109,78 +111,32 @@
         dicta consectetur omnis voluptates molestias voluptate.
     </p>
  
-   <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-6 mb-5 px-4">
-          <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop ">
-                <div class="d-flex align-items-center mb-2">
-                <img src="images/IMG_43553.svg" width="40px">
-                <h5 class="m-0 ms-3">Wifi</h5>
-                </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                   culpa cupiditate facere exercitationem deserunt iste offi!
-                </p>
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+       <div class="col-lg-6 col-md-5 mb-4 order-lg-1 order-md-1 order-2">
+        <h3 class="mb-3">Lorem ipsum dolor sit  </h3>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            omnis minima sapiente Laborum obcaecati explicabo fuga?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            omnis minima sapiente Laborum obcaecati explicabo fuga?
+        </p>
         </div>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-5 px-4">
-          <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop ">
-                <div class="d-flex align-items-center mb-2">
-                <img src="images/IMG_43553.svg" width="40px">
-                <h5 class="m-0 ms-3">Wifi</h5>
-                </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                   culpa cupiditate facere exercitationem deserunt iste offi!
-                </p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-5 px-4">
-          <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop ">
-                <div class="d-flex align-items-center mb-2">
-                <img src="images/IMG_43553.svg" width="40px">
-                <h5 class="m-0 ms-3">Wifi</h5>
-                </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                   culpa cupiditate facere exercitationem deserunt iste offi!
-                </p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-5 px-4">
-          <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop ">
-                <div class="d-flex align-items-center mb-2">
-                <img src="images/IMG_43553.svg" width="40px">
-                <h5 class="m-0 ms-3">Wifi</h5>
-                </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                   culpa cupiditate facere exercitationem deserunt iste offi!
-                </p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-5 px-4">
-          <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop ">
-                <div class="d-flex align-items-center mb-2">
-                <img src="images/IMG_43553.svg" width="40px">
-                <h5 class="m-0 ms-3">Wifi</h5>
-                </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                   culpa cupiditate facere exercitationem deserunt iste offi!
-                </p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-5 px-4">
-          <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop ">
-                <div class="d-flex align-items-center mb-2">
-                <img src="images/IMG_43553.svg" width="40px">
-                <h5 class="m-0 ms-3">Wifi</h5>
-                </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                   culpa cupiditate facere exercitationem deserunt iste offi!
-                </p>
-        </div>
-      </div>
-    </div>
-   </div>
+        <div class="col-lg-5 col-md-5 mb-4 order-lg-2  order-md-2 order-1">
+            <img src="images/about.jpg"class="w-100">
 
-    <?php require('inc/footer.php');?>
+        </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col lg-3 col-md-6">
+
+        </div>
+    </div>
+  </div>
+
+ <?php require('inc/footer.php');?>
 
     
 
