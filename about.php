@@ -10,94 +10,18 @@
     
     <?php require('inc/links.php');?>
     <style>
-        .pop:hover{
+        .box{
             border-top-color: var(--teal) !important;
-            transform: scale(1.03);
-            transition: all 0.3s;
+            
         }
     </style>
 
-    <?php require('inc/header.php');?>
+    
 
 </head>
-<body>
-    <div class="navbar">
-        <!-- Your navigation bar content here -->
-        <div class="menuToggle"></div>
-        <div class="sidebar">
-            <ul class="Menulist">
-                <li class="logo active" style="--bg:#f80808;">
-                    <a href="#">
-                        <div class="icon"><ion-icon name="home-outline"></ion-icon></div>
-                        <div class="text">Home</div>         
-                    </a>           
-                </li>
+<body class="bg-light">
 
-                <li class="logo" style="--bg:#e51111;">
-                    <a href="#">
-                        <div class="icon"><ion-icon name="person-circle-outline"></ion-icon></div>
-                        <div class="text">About</div>         
-                    </a>           
-                </li>
-
-                <li class="logo" style="--bg:#0e0af4;">
-                    <a href="#">
-                        <div class="icon"><ion-icon name="person-add-outline"></ion-icon></div>
-                        <div class="text">Contact</div>         
-                    </a>           
-                </li>
-
-                <li class="logo" style="--bg:#abff02;">
-                    <a href="#">
-                        <div class="icon"><ion-icon name="person-circle-outline"></ion-icon></div>
-                        <div class="text">Profile</div>         
-                    </a>           
-                </li>
-
-                <div class="bottom">
-                    <li style="--bg:#333;">
-                        <a href="#">
-                            <div class="icon"></div>
-                            <div class="imgBx"> 
-                                <img src="profile.jpg" alt="Profile Picture">
-                            </div>
-                            <div class="text">Sarthak Sain</div>
-                        </a>           
-                    </li>
-                </div>
-
-                <li class="logo" style="--bg:#ec0bc3;">
-                    <a href="#">
-                        <div class="icon"><ion-icon name="log-in-outline"></ion-icon></div>
-                        <div class="text">Login</div> 
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <!--script for toggle -->
-        <script>
-            let menuToggle = document.querySelector('.menuToggle');
-            let sidebar = document.querySelector('.sidebar');
-            menuToggle.onclick = function() {
-                menuToggle.classList.toggle('active');
-                sidebar.classList.toggle('active');
-            }
-
-            let Menulist = document.querySelectorAll('.Menulist li');
-
-            function activeLink() {
-                Menulist.forEach((item) =>
-                    item.classList.remove('active'));
-                this.classList.add('active');
-            }
-            Menulist.forEach((item) =>
-                item.addEventListener('click', activeLink));
-        </script>
-        <!--script for toggle-->
-
-    </div>
-
+      <?php require('inc/header.php');?>
     
     <div class="my-5 px-4"> <!-- Added text-center class to center the text -->
         <h2 class="mt-12 pt-5 mb-4 h-font text-center">About us</h2>
@@ -113,7 +37,7 @@
  
   <div class="container">
     <div class="row justify-content-between align-items-center">
-       <div class="col-lg-6 col-md-5 mb-4 order-lg-1 order-md-1 order-2">
+        <div class="col-lg-6 col-md-5 mb-4 order-lg-1 order-md-1 order-2">
         <h3 class="mb-3">Lorem ipsum dolor sit  </h3>
         <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -124,21 +48,110 @@
         </div>
         <div class="col-lg-5 col-md-5 mb-4 order-lg-2  order-md-2 order-1">
             <img src="images/about.jpg"class="w-100">
-
         </div>
+
     </div>
   </div>
   <div class="container mt-5">
     <div class="row">
-        <div class="col lg-3 col-md-6">
-
-        </div>
+       <div class="col-lg-3 col-md-6 mb-4 px-4">
+          <div class="bg-white rounded shadow p-4 border-4 text-center box ">
+             <img src ="images/hotel.svg" width="70px">
+             <h4 class="mt-3">100+ Rooms</h4>
+            
+            </div>
+       </div>
+       <div class="col-lg-3 col-md-6 mb-4 px-4">
+          <div class="bg-white rounded shadow p-4 border-4 text-center box ">
+             <img src ="images/customers.svg" width="70px">
+             <h4 class="mt-3">2000+ CUSTOMERS</h4>
+            
+            </div>
+       </div>
+       <div class="col-lg-3 col-md-6 mb-4 px-4">
+          <div class="bg-white rounded shadow p-4 border-4 text-center box ">
+             <img src ="images/rating.svg" width="70px">
+             <h4 class="mt-3">100+ REVIEWS</h4>
+            
+            </div>
+       </div>
+       <div class="col-lg-3 col-md-6 mb-4 px-4">
+          <div class="bg-white rounded shadow p-4 border-4 text-center box ">
+             <img src ="images/staff.svg" width="70px">
+             <h4 class="mt-3">200+ STAFFs</h4>
+            
+            </div>
+       </div>     
+       </div>
     </div>
+  </div>
+
+  <h3 class="my-5 fw-bold h-font text-center">MANAGEMENT TEAM</h3>
+
+  <div class="container px-4">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper mb-5">
+      <div class="swiper-slide bg-white text-center overflow-hidden rounded">
+       <img src="images/people1.webp"class="w-100">
+       <h5 class="mt-2">Random Name</h5>
+      </div>
+      <div class="swiper-slide bg-white text-center overflow-hidden rounded">
+       <img src="images/people1.webp"class="w-100">
+       <h5 class="mt-2">Random Name</h5>
+      </div>
+      <div class="swiper-slide bg-white text-center overflow-hidden rounded">
+       <img src="images/people1.webp"class="w-100">
+       <h5 class="mt-2">Random Name</h5>
+      </div>
+      <div class="swiper-slide bg-white text-center overflow-hidden rounded">
+       <img src="images/people1.webp"class="w-100">
+       <h5 class="mt-2">Random Name</h5>
+      </div>
+      <div class="swiper-slide bg-white text-center overflow-hidden rounded">
+       <img src="images/people1.webp"class="w-100">
+       <h5 class="mt-2">Random Name</h5>
+      </div>
+      <div class="swiper-slide bg-white text-center overflow-hidden rounded">
+       <img src="images/people1.webp"class="w-100">
+       <h5 class="mt-2">Random Name</h5>
+      </div>
+      <div class="swiper-slide bg-white text-center overflow-hidden rounded">
+       <img src="images/people1.webp"class="w-100">
+       <h5 class="mt-2">Random Name</h5>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
   </div>
 
  <?php require('inc/footer.php');?>
 
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
     
+    spaceBetween: 40,
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      640: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+      
+    },
+  });
+</script>
 
 </body>
 </html>

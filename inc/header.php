@@ -10,7 +10,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="facilities.php">facilities</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="contact.php">Contacts</a></li>
             <li>
               <form class="search-form" action="#" method="GET">
                 <div class="search-container">
@@ -21,10 +21,9 @@
                 </div>
               </form>
               
-              
             </li>
            
-              
         </ul>
     </nav>
+    
    

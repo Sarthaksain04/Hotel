@@ -59,63 +59,7 @@
   
   <!--swiper-->
 
-     <!--sidebar-->
-
-          <div class="menuToggle"></div>
-          <div class="sidebar">
-              <ul class="Menulist">
-                  <li class="logo active" style="--bg:#f80808;">
-                      <a href="#">
-                          <div class="icon"><ion-icon name="home-outline"></ion-icon></div>
-                          <div class="text">Home</div>         
-                      </a>           
-                  </li>
-      
-                  <li class="logo" style="--bg:#e51111;">
-                      <a href="#">
-                          <div class="icon"><ion-icon name="person-circle-outline"></ion-icon></div>
-                          <div class="text">About</div>         
-                      </a>           
-                  </li>
-      
-                  <li class="logo" style="--bg:#0e0af4;">
-                      <a href="#">
-                          <div class="icon"><ion-icon name="person-add-outline"></ion-icon></div>
-                          <div class="text">Contact</div>         
-                      </a>           
-                  </li>
-                  
-                  <li class="logo" style="--bg:#abff02;">
-                      <a href="#">
-                          <div class="icon"><ion-icon name="person-circle-outline"></ion-icon></div>
-                          <div class="text">Profile</div>         
-                      </a>           
-                  </li>
-      
-                  <div class="bottom">
-                      <li style="--bg:#333;">
-                          <a href="#">
-                              <div class="icon"></div>
-                              <div class="imgBx"> 
-                                  <img src="profile.jpg" alt="Profile Picture">
-                              </div>
-                              <div class="text">Sarthak Sain</div>
-                          </a>           
-                      </li>
-                  </div>
-      
-                  <li class="logo" style="--bg:#ec0bc3;">
-                      <a href="#">
-                          <div class="icon"><ion-icon name="log-in-outline"></ion-icon></div>
-                          <div class="text">Login</div> 
-                      </a>
-                  </li>
-      
-              </ul>
-          </div>
-          
-          
-     <!--sidebar-->
+    
 
           <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
           <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -161,7 +105,7 @@
 
     <div class="container availability-form">
         <div class="row">
-            <div class="col-lg-12 bg-white shadow p-4 rounded">
+            <div class="col-lg-12 bg-white shadow p-4 rounded ">
             <h5 class="mb-4">Check Booking Availability</h5>
             <form>
                 <div class="row align-items-end">
