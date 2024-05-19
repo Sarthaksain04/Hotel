@@ -1,6 +1,7 @@
 <?php
   require('C:\xampp\htdocs\Hotel\admin\dashboard.php');
   adminLogin();
+  session_regenerate_id(true);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Admin Panel - Dashboard</title>
-    
+    <?php require('admin\links.php');?>
     </head>
     <body class="bg-light">
 
@@ -19,7 +20,8 @@
         <a class="btn btn-light btn-sm">LOG OUT</a>
       </div>
     
+      
 
-  <?php require('C:\xampp\htdocs\Hotel\admin\inc\scripts.php'); ?>
+  <?php require('inc\scripts.php'); ?>
 </body>
 </html>
